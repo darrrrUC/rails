@@ -27,7 +27,7 @@ Omrails::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = true
+  config.assets.compile = false
 
   # Generate digests for assets URLs.
   config.assets.digest = true
@@ -44,7 +44,7 @@ Omrails::Application.configure do
 
   # Set to :debug to see everything in the log.
   config.log_level = :info
-config.assets.initialize_on_precompile=false
+
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
 
